@@ -1,0 +1,55 @@
+.container {
+    display: block;
+    width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+.carousel {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+.slik-prev,
+.slik-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -66px;
+    border: none;
+    background-color: #fff;
+}
+
+.slik-prev {
+    right: -66px;
+    left: auto;
+}
+img {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+}
+.color {
+    display: block;
+    width: 1024px;
+    margin: 0 auto;
+}
+/* Переменные в CSS */ /*  Название может быть любым */
+:root {
+    --box-bg: black;
+    --box-text-color: white;
+}
+
+.box {
+    padding: 10px;
+    background: var(--box-bg);
+    height: 100px;
+}
+
+.box p {
+    color: var(--box-text-color);
+}
+
+footer {
+    height: 20px;
+    background: #d3a45d;
+}
